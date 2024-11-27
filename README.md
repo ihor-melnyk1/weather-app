@@ -47,6 +47,7 @@ VITE_BACKEND_URL=http://localhost:3000
 Navigate to the `backend` directory and run:
 ```bash
 cd backend
+pnpm install
 pnpm start:dev
 ```
 
@@ -57,6 +58,7 @@ The backend will start on `http://localhost:3000`.
 Navigate to the `frontend` directory and run:
 ```bash
 cd frontend
+pnpm install
 pnpm dev
 ```
 
