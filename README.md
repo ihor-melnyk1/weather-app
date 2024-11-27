@@ -23,13 +23,7 @@ git clone https://github.com/ihor-melnyk1/weather-app.git
 cd weather-app
 ```
 
-#### 2. Install Dependencies
-In the root directory of the project, run:
-```bash
-pnpm install
-```
-
-#### 3. Configure Environment Variables
+#### 2. Configure Environment Variables
 
 Create `.env` files in both the `backend` and `frontend` directories with the following content:
 
@@ -48,7 +42,7 @@ VITE_BACKEND_URL=http://localhost:3000
 
 > **Note:** Replace `your_openweathermap_api_key` with your API key from [OpenWeatherMap](https://openweathermap.org/api).
 
-#### 4. Start the Backend
+#### 3. Start the Backend
 
 Navigate to the `backend` directory and run:
 ```bash
@@ -58,7 +52,7 @@ pnpm start:dev
 
 The backend will start on `http://localhost:3000`.
 
-#### 5. Start the Frontend
+#### 4. Start the Frontend
 
 Navigate to the `frontend` directory and run:
 ```bash
