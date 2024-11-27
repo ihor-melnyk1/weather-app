@@ -1,0 +1,38 @@
+.wrapper {
+  width: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  transition: width 0.5s ease;
+}
+
+.active {
+  width: 572px;
+}
+
+.weatherImage {
+  width: 278px;
+  height: 278px;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location {
+  color: var(--gray-100);
+}
+
+.temp {
+  margin-top: 16px;
+  color: var(--gray-100);
+}
+
+.description {
+  color: var(--gray-90);
+  margin-top: 4px;
+  text-transform: capitalize;
+}
